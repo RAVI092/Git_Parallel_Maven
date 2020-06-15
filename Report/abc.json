@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11886844700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is at login page",
+            "match": {
+              "location": "com.step_def.Login_Test.user_is_at_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-18T15:31:31.987Z",
+        "line": 12,
+        "name": "login with valid data",
+        "description": "",
+        "id": "flipkart-login-validation;login-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 925512000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters the valid user name \u003c\"u-name\"\u003e and password \u003c\"pass\"\u003e",
+            "match": {
+              "location": "com.step_def.Login_Test.he_enters_the_valid_user_name_u_name_and_password_pass()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71958700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the sign-in button",
+            "match": {
+              "location": "com.step_def.Login_Test.click_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21986700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that he is logged in",
+            "match": {
+              "location": "com.step_def.Login_Test.verify_that_he_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "FlipKart login validation",
+    "description": "",
+    "id": "flipkart-login-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Login.feature",
+    "tags": []
+  }
+]
